@@ -1,0 +1,233 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  flex-wrap: nowrap;
+}
+
+.Nav ul {
+  list-style: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 140px;
+  color: white;
+}
+
+.Nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 15px;
+  font-weight: 400;
+}
+
+.Nav ul li a {
+  color: white;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+.Nav ul li a:hover {
+  border-bottom: 3px solid black;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  margin-left: 10%;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 657px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  .logo {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .logo {
+    margin-left: 3%;
+    font-size: 6px;
+  }
+}
+
+.logo p {
+  color: yellowgreen;
+  margin-top: 3%;
+}
+
+#Home h1 {
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+  margin-top: 20%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #Home h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #Home p {
+    font-size: 20px;
+    color: white;
+  }
+}
+
+#Home p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/*body untuk makanan dan minuman */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: goldenrod;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: block;
+}
+
+/*makanan*/
+
+.menu {
+  margin-top: 20%;
+  flex-wrap: wrap-reverse;
+}
+
+#menu h2 {
+  font-family: "Salsa", cursive;
+  color: white;
+  text-align: center;
+}
+
+.menu .row {
+  display: flex;
+  flex-wrap: wrap; /* menggunakan flexbox */
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card {
+  text-align: center;
+  max-width: 250px;
+  padding-bottom: 3rem;
+}
+
+.menu .row .menu-card .menu-card-img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.menu .row .menu-card-title {
+  margin-top: 1.5rem;
+}
+
+/* minuman */
+.minuman {
+  margin-top: 5%;
+}
+
+.minuman h2 {
+  font-family: "Salsa", cursive;
+  color: white;
+  text-align: center;
+}
+
+.minuman .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.minuman .row .minuman-card {
+  text-align: center;
+  max-width: 250px;
+  padding-bottom: 3rem;
+}
+
+.minuman .row .minuman-card .minuman-card-img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.minuman .row .minuman-card-title {
+  margin-top: 1.5rem;
+}
+
+/* footer */
+
+.background {
+  background-color: grey;
+  min-height: 50vh; /* Mengisi tinggi viewport */
+}
+
+.contact {
+  color: black;
+  margin-left: 40%;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact p {
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  font-family: "Salsa", cursive;
+}
+
+.instagram img {
+  width: 60px;
+  height: 60px;
+}
