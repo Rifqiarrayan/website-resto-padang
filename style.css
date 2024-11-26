@@ -1,0 +1,360 @@
+.Nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  flex-wrap: nowrap;
+}
+
+.Nav ul {
+  list-style: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 140px;
+  color: white;
+}
+
+.Nav ul li {
+  list-style: none;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  padding: 15px 15px;
+  font-weight: 400;
+}
+
+.Nav ul li a {
+  color: white;
+  text-decoration: none;
+  flex-wrap: nowrap;
+}
+.Nav ul li a:hover {
+  border-bottom: 3px solid black;
+  transition: all 0.3s ease;
+}
+
+.logo {
+  margin-left: 10%;
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* styele untuk button*/
+.container {
+  text-align: center;
+  padding: 50px 20px;
+}
+.button-container {
+  margin-top: 20px;
+}
+
+.btn-get-started {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #f7941d; /* Warna tombol oranye */
+  text-decoration: none;
+  border-radius: 30px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.btn-get-started:hover {
+  background-color: #d17a0d; /* Warna saat hover */
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 657px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 643px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 632px) {
+  .logo {
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .logo {
+    margin-left: 5%;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 627px) {
+  .logo {
+    margin-left: 3%;
+    font-size: 6px;
+  }
+}
+
+.logo p {
+  color: yellowgreen;
+  margin-top: 3%;
+}
+
+#Home h1 {
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  #Home h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #Home p {
+    font-size: 20px;
+    color: white;
+  }
+}
+
+#Home p {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+/*body untuk makanan dan minuman */
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: goldenrod;
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: block;
+}
+
+/*makanan*/
+
+.menu {
+  margin-top: 5%;
+  flex-wrap: wrap-reverse;
+}
+
+#menu h2 {
+  font-family: "Salsa", cursive;
+  color: white;
+  text-align: center;
+}
+
+.menu .row {
+  display: flex;
+  flex-wrap: wrap; /* menggunakan flexbox */
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card {
+  text-align: center;
+  max-width: 250px;
+  padding-bottom: 3rem;
+}
+
+.menu .row .menu-card .menu-card-img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.menu .row .menu-card-title {
+  margin-top: 1.5rem;
+}
+
+/* minuman */
+.minuman {
+  margin-top: 5%;
+}
+
+.minuman h2 {
+  font-family: "Salsa", cursive;
+  color: white;
+  text-align: center;
+}
+
+.minuman .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  justify-content: center;
+}
+
+.minuman .row .minuman-card {
+  text-align: center;
+  max-width: 250px;
+  padding-bottom: 3rem;
+}
+
+.minuman .row .minuman-card .minuman-card-img {
+  border-radius: 50%;
+  width: 80%;
+}
+
+.minuman .row .minuman-card-title {
+  margin-top: 1.5rem;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 480px; /* Mengurangi ukuran maksimum container */
+  margin: 0 auto; 
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+iframe {
+  width: 100%;
+  height: 270px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+/* footer */
+
+/* Background and Container */
+.background {
+  background-color: goldenrod;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Headings and Paragraph */
+.contact h2 {
+  color: #f7941d;
+  margin-bottom: 20px;
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+/* Form Input Styling */
+.contact input[type="text"], .contact input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.contact input[type="text"]:focus, .contact input[type="email"]:focus {
+  border-color: #f7941d;
+  outline: none;
+  box-shadow: 0 0 10px rgba(247, 148, 29, 0.2);
+}
+
+/* Submit Button Styling */
+.submit-btn {
+  padding: 15px 30px;
+  background-color: #f7941d;
+  color: white;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #d17a0d;
+  transform: translateY(-3px);
+}
+
+/* style audio*/
+.centered-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  margin-top: 5px; 
+}
+
+
+/* Social Media Icons */
+.social-media {
+  margin-top: 30px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-media img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+.contact p {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #777;
+}
